@@ -1,0 +1,69 @@
+section{
+  overflow:hidden;
+  color:white;
+  background-image:url(http://aerialdistrict.com/wp-content/uploads/2013/10/parallax.png);
+  font-family:'Roboto';
+  width:70%;
+  text-align:center;
+  padding-top:5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+h1{
+  text-shadow:2px 4px 2px black;
+}
+ul li{
+  list-style-type:none;
+  line-height:15px;
+  display:inline;
+  height:27px;
+  margin-left:10px;
+  margin-right:10px;
+}
+a{
+  text-decoration:none;
+  color:#AEA8D3;
+}
+span{
+  font-size:45px;
+  margin-right:4px;
+}
+#online{
+  color:#019875;
+}
+#offline{
+  color:#6C78A9;
+}
+
+.channels>div{
+  display:flex;
+  width:100%;
+}
+img{
+  width:50px;
+  height:50px;
+  border-radius:30px;
+  border:3px solid black;
+}
+.image{
+  padding:5px;
+  width:20%;
+}
+.name{
+  padding:18px;
+  width:20%;
+}
+.status{
+  padding:18px;
+  width:60%;
+}
+
+.online-background{
+  background-color:#019875;
+}
+.offline-background{
+  background-color:#6C78A9;
+}
+.error{
+  background-color:#96281B;
+}
